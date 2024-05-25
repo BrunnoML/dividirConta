@@ -14,3 +14,25 @@ pessoas = st.number_input("Quantas Pessoas?", min_value=1)
 
 total = (conta * (1 + (gorjeta / 100))) / pessoas
 st.write(f"Cada pessoa paga: R$ {total:.2f}")
+
+
+# Define CSS style for centering
+center_style = """
+<style>
+  .centered {
+    text-align: center;
+  }
+</style>
+<div class="centered">
+  <br/>
+  <p>Desenvolvido com ☕️ por BrunnoML</p>
+  <div>
+    <a href="https://www.linkedin.com/in/brunnoml/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
+  </div>
+</div>
+"""
+
+st.markdown(center_style, unsafe_allow_html=True)
+
+
+
