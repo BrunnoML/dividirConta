@@ -1,7 +1,5 @@
 import streamlit as st
 
-streamlit_version = st.__version__
-print(f"Streamlit Version: {streamlit_version}")
 
 # Título e Descrição do APP
 st.title("Divisão de Conta com Gorjeta")
